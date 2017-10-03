@@ -1,0 +1,12 @@
+package: github.com/GanymedeNil/shorturl
+import:
+- package: github.com/gorilla/mux
+  version: ^1.5.0
+- package: github.com/spf13/viper
+  version: ^1.0.0
+- package: github.com/garyburd/redigo
+  version: ^1.1.0
+- package: golang.org/x/sys
+  repo: https://github.com/golang/sys.git
+- package: golang.org/x/text
+  repo: https://github.com/golang/text.git
